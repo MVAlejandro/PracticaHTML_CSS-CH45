@@ -1,0 +1,124 @@
+
+/* Barra de navegación */
+.navbar {
+    padding: 2rem;
+    background-color: #F5E7B2;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Banner */
+.banner {
+    justify-content: center;
+    display: flex;
+    padding: 50px 0px 40px 0px;
+
+    background-color: #973131;
+}
+
+/* Encabezado */
+#tit {
+    padding: 10px 0px 15px 0px;
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Introducción */
+.intro {
+    padding: 30px;
+}
+
+/* Regla para todos los contenedores */
+.container {
+    text-align: justify;
+}
+
+/* Regla para los subtitulos h2 */
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Regla para los subtitulos h3 */
+h3 {
+    font-style: italic;
+}
+
+/* Contenedor de Ubicación */
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor de Datos relevantes */
+.dat {
+    padding-bottom: 100px;
+}
+
+.cul {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.cult {
+    padding: 0px 50px 0px 50px;
+}
+
+/* Footer */
+.footer {
+    background-color: #973131;
+    margin: 0 auto;
+    padding-top: 35px;
+
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Media Querry */
+@media screen and (max-width: 992px) {
+    .cult{
+        padding: 0px 10px 0px 10px;
+        width: 200px;
+    }
+
+    #act-txt{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    } 
+
+    .cult{
+        padding: 0px 10px 0px 10px;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #tit{
+        padding: 7px 0px 10px 0px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #text{
+        font-size: 15px;
+    }
+
+    .cult{
+        display: none;
+        width: 100px;
+    }
+}
+

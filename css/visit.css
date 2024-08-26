@@ -1,0 +1,89 @@
+
+/* Barra de navegación */
+.navbar {
+    padding: 2rem;
+    background-color: #F5E7B2;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Banner */
+.banner {
+    justify-content: center;
+    display: flex;
+    padding: 50px 0px 40px 0px;
+
+    background-color: #973131;
+}
+
+/* Encabezado */
+#tit {
+    padding: 10px 0px 15px 0px;
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Introducción */
+.intro {
+    padding: 40px;
+}
+
+/* Regla para todos los contenedores */
+.container {
+    text-align: justify;
+}
+
+/* Regla para los subtitulos h2 */
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.car {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Texto de los contenedores */
+.txt {
+    padding: 50px;
+}
+
+/* Contenedores */
+.melon {
+    padding-bottom: 90px;
+}
+.molino, .baños {
+    padding-bottom: 20px;
+}
+
+.footer{
+    background-color: #973131;
+    margin: 0 auto;
+    padding-top: 35px;
+
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* Media Querry */
+@media screen and (max-width: 767px) {
+    .navbar-brand{
+        display: none;
+    } 
+
+    #tit{
+        padding: 7px 0px 10px 0px;
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+}
